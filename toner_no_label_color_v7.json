@@ -10,7 +10,7 @@
       "encoding": "terrarium",
       "maxzoom": 12,
       "tileSize": 256,
-      "url": "https://tiles.stadiamaps.com/data/terrarium.json"
+      "url": "https://tiles.stadiamaps.com/data/terrarium.json?api_key=01367e37-a33e-4ae6-8977-0d3e884572ef"
     },
     "stamen-omt": {
       "type": "vector",

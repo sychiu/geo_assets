@@ -2139,7 +2139,7 @@
           ["literal", [-15, 15]]
         ],
         "fill-color": "rgba(0, 0, 0, 1)",
-        "fill-opacity": 0.05,
+        "fill-opacity": 0.03,
         "fill-translate-anchor": "map"
       }
     },

@@ -366,7 +366,15 @@
         "hillshade-illumination-direction": 90,
         "hillshade-shadow-color": ["rgba(0, 0, 0, 1)"],
         "hillshade-illumination-anchor": "map",
-        "hillshade-exaggeration": 0.25
+        "hillshade-exaggeration": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          12,
+          0.15,
+          13,
+          0.25
+        ]
       }
     },
     {

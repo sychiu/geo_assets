@@ -2282,7 +2282,7 @@
       "source-layer": "building",
       "minzoom": 15,
       "filter": ["!", ["has", "hide_3d"]],
-      "layout": {"visibility": "visible", "line-join": "round"},
+      "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
         "line-color": "rgba(0, 0, 0, 1)",
         "line-blur": 0,
@@ -2304,7 +2304,7 @@
           22,
           -50
         ],
-        "line-opacity": 0.017
+        "line-opacity": 0.015
       }
     },
     {
@@ -2317,7 +2317,7 @@
       "layout": {"visibility": "visible", "line-join": "bevel"},
       "paint": {
         "line-color": "rgba(0, 0, 0, 1)",
-        "line-opacity": 0.033,
+        "line-opacity": 0.0375,
         "line-blur": 0,
         "line-width": [
           "interpolate",
@@ -2368,7 +2368,7 @@
           -10
         ],
         "line-blur": 0,
-        "line-opacity": 0.05
+        "line-opacity": 0.075
       }
     },
     {
@@ -2383,7 +2383,7 @@
         "fill-color": "rgba(0, 0, 0, 1)",
         "fill-antialias": false,
         "fill-translate-anchor": "viewport",
-        "fill-opacity": 0.05
+        "fill-opacity": 0.075
       }
     },
     {

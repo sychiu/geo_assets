@@ -81,7 +81,7 @@
         [">=", ["to-number", ["get", "sizerank"]], 0],
         ["match", ["get", "class"], ["commercial"], true, false]
       ],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {
         "fill-antialias": true,
         "fill-color": "rgba(255, 242, 204, 1)",

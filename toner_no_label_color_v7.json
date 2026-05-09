@@ -120,7 +120,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "fill-antialias": true,
-        "fill-color": "rgba(255, 246, 222, 1)",
+        "fill-color": "rgba(248, 247, 242, 1)",
         "fill-opacity": 1
       }
     },
@@ -2135,7 +2135,7 @@
       "source": "stamen-omt",
       "source-layer": "building",
       "minzoom": 15,
-      "layout": {"visibility": "visible"},
+      "layout": {"visibility": "none"},
       "paint": {
         "fill-translate": [
           "interpolate",
@@ -2160,7 +2160,7 @@
       "filter": ["!", ["has", "hide_3d"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(239, 238, 233, 1)",
+        "fill-color": "rgba(236, 235, 231, 1)",
         "fill-opacity": 1,
         "fill-antialias": true,
         "fill-translate-anchor": "viewport"
@@ -2189,7 +2189,7 @@
       "filter": ["!", ["has", "hide_3d"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "line-color": "rgba(163, 163, 163, 1)",
+        "line-color": "rgba(170, 170, 170, 1)",
         "line-width": 1,
         "line-opacity": 1
       }

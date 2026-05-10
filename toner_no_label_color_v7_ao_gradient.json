@@ -2282,7 +2282,7 @@
       "source-layer": "building",
       "minzoom": 15,
       "filter": ["!", ["has", "hide_3d"]],
-      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "layout": {"visibility": "visible", "line-join": "miter"},
       "paint": {
         "line-color": "rgba(0, 0, 0, 1)",
         "line-blur": 0,
@@ -2304,7 +2304,7 @@
           22,
           -50
         ],
-        "line-opacity": 0.015
+        "line-opacity": 0.008
       }
     },
     {
@@ -2314,10 +2314,10 @@
       "source-layer": "building",
       "minzoom": 15,
       "filter": ["!", ["has", "hide_3d"]],
-      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "layout": {"visibility": "visible", "line-join": "miter"},
       "paint": {
         "line-color": "rgba(0, 0, 0, 1)",
-        "line-opacity": 0.0375,
+        "line-opacity": 0.02,
         "line-blur": 0,
         "line-width": [
           "interpolate",
@@ -2346,7 +2346,7 @@
       "source-layer": "building",
       "minzoom": 15,
       "filter": ["!", ["has", "hide_3d"]],
-      "layout": {"visibility": "visible", "line-join": "bevel"},
+      "layout": {"visibility": "visible", "line-join": "miter"},
       "paint": {
         "line-color": "rgba(0, 0, 0, 1)",
         "line-width": [
@@ -2367,8 +2367,9 @@
           22,
           -10
         ],
-        "line-blur": 0,
-        "line-opacity": 0.075
+        "line-opacity": 0.05,
+        "line-blur": 1,
+        "line-translate-anchor": "map"
       }
     },
     {
@@ -2383,7 +2384,7 @@
         "fill-color": "rgba(0, 0, 0, 1)",
         "fill-antialias": false,
         "fill-translate-anchor": "viewport",
-        "fill-opacity": 0.075
+        "fill-opacity": 0.05
       }
     },
     {

@@ -3165,7 +3165,7 @@
       "filter": [
         "all",
         ["==", ["get", "brunnel"], "bridge"],
-        ["match", ["get", "class"], ["rail"], true, false]
+        ["match", ["get", "class"], ["rail", "transit"], true, false]
       ],
       "layout": {"visibility": "visible"},
       "paint": {
@@ -3190,7 +3190,7 @@
       "filter": [
         "all",
         ["==", ["get", "brunnel"], "bridge"],
-        ["match", ["get", "class"], ["rail"], true, false]
+        ["match", ["get", "class"], ["rail", "transit"], true, false]
       ],
       "layout": {"visibility": "visible"},
       "paint": {

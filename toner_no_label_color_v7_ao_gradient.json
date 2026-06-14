@@ -2368,7 +2368,7 @@
           -10
         ],
         "line-opacity": 0.05,
-        "line-blur": 1,
+        "line-blur": 0,
         "line-translate-anchor": "map"
       }
     },

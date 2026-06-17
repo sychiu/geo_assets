@@ -36,7 +36,7 @@
       "id": "land",
       "type": "background",
       "layout": {"visibility": "visible"},
-      "paint": {"background-color": "rgba(255, 255, 255, 1)"}
+      "paint": {"background-color": "rgba(255, 254, 254, 1)"}
     },
     {
       "id": "national-park",
@@ -341,7 +341,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgba(187, 187, 187, 1)",
+        "line-color": "rgba(189, 228, 239, 1)",
         "line-opacity": ["interpolate", ["linear"], ["zoom"], 8, 0, 8.5, 1],
         "line-width": [
           "interpolate",
@@ -350,7 +350,7 @@
           9,
           ["match", ["get", "class"], ["canal", "river"], 0.1, 0],
           20,
-          ["match", ["get", "class"], ["canal", "river"], 8, 3]
+          ["match", ["get", "class"], ["canal", "river"], 24, 12]
         ]
       }
     },

@@ -3944,7 +3944,7 @@
       "source": "stamen-omt",
       "source-layer": "place",
       "minzoom": 10,
-      "maxzoom": 14,
+      "maxzoom": 15,
       "filter": [
         "all",
         [

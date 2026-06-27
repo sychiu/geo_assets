@@ -3792,7 +3792,11 @@
       "source-layer": "poi",
       "filter": [
         "all",
-        ["==", ["get", "subclass"], "park"],
+        [
+          "in",
+          ["get", "class"],
+          ["literal", ["town_hall", "park", "library", "stadium"]]
+        ],
         [
           "step",
           ["zoom"],
@@ -3815,7 +3819,7 @@
         "text-color": "hsl(0, 0%, 10%)",
         "text-halo-color": "hsl(0, 0%, 100%)",
         "text-halo-width": 1.5,
-        "text-opacity": 0.6,
+        "text-opacity": 0.4,
         "icon-opacity": 1
       }
     },
@@ -3852,7 +3856,8 @@
         "icon-ignore-placement": false,
         "icon-keep-upright": false,
         "icon-anchor": "center",
-        "icon-pitch-alignment": "auto"
+        "icon-pitch-alignment": "auto",
+        "text-field": ""
       },
       "paint": {
         "text-color": "hsl(0, 0%, 0%)",
@@ -3860,8 +3865,8 @@
         "text-halo-color": "hsl(0, 0%, 100%)",
         "text-halo-width": 0.5,
         "text-opacity": 0.6,
-        "icon-opacity": 0.6,
-        "icon-translate-anchor": "map"
+        "icon-translate-anchor": "map",
+        "icon-opacity": 0.6
       }
     },
     {
@@ -3933,9 +3938,9 @@
           11.5,
           0,
           11.51,
-          0.6
+          0.4
         ],
-        "icon-opacity": 0.6
+        "icon-opacity": 0.4
       }
     },
     {

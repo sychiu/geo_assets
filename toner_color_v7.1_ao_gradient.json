@@ -441,9 +441,9 @@
           ["linear"],
           ["zoom"],
           14.75,
-          0.15,
+          0.1,
           15.25,
-          0.2
+          0.15
         ]
       }
     },
@@ -1874,11 +1874,11 @@
         "line-color": [
           "step",
           ["zoom"],
-          "hsl(0, 0%, 80%)",
+          "hsl(0, 0%, 70%)",
           14.5,
-          "hsl(0, 0%, 80%)",
+          "hsl(0, 0%, 70%)",
           17,
-          "hsl(0, 0%, 80%)"
+          "hsl(0, 0%, 70%)"
         ],
         "line-opacity": ["step", ["zoom"], 0, 14, 1],
         "line-width": [
@@ -1888,9 +1888,9 @@
           12,
           0.5,
           18,
-          10,
+          8,
           22,
-          100
+          80
         ]
       }
     },
@@ -2173,178 +2173,6 @@
           20,
           8
         ]
-      }
-    },
-    {
-      "id": "building-glow",
-      "type": "line",
-      "source": "stamen-omt",
-      "source-layer": "building",
-      "minzoom": 15,
-      "maxzoom": 24,
-      "filter": ["!", ["has", "hide_3d"]],
-      "layout": {
-        "visibility": "none",
-        "line-cap": "butt",
-        "line-join": "miter"
-      },
-      "paint": {
-        "line-color": "hsl(0, 0%, 0%)",
-        "line-offset": 0,
-        "line-translate-anchor": "viewport",
-        "line-width": {
-          "stops": [[15, 5], [19, 25], [19.001, 10]],
-          "type": "exponential"
-        },
-        "line-translate": [0, 0],
-        "line-blur": 50,
-        "line-opacity": 0.3
-      }
-    },
-    {
-      "id": "building-side",
-      "type": "fill",
-      "source": "stamen-omt",
-      "source-layer": "building",
-      "minzoom": 15,
-      "layout": {"visibility": "none"},
-      "paint": {
-        "fill-translate": [
-          "interpolate",
-          ["exponential", 2],
-          ["zoom"],
-          15,
-          ["literal", [0, 0]],
-          22,
-          ["literal", [0, 20]]
-        ],
-        "fill-color": "rgba(0, 0, 0, 1)",
-        "fill-opacity": 0.02,
-        "fill-translate-anchor": "viewport"
-      }
-    },
-    {
-      "id": "building-side2",
-      "type": "fill",
-      "source": "stamen-omt",
-      "source-layer": "building",
-      "minzoom": 15,
-      "layout": {"visibility": "none"},
-      "paint": {
-        "fill-translate": [
-          "interpolate",
-          ["exponential", 2],
-          ["zoom"],
-          15,
-          ["literal", [0, 0]],
-          22,
-          ["literal", [0, 40]]
-        ],
-        "fill-color": "rgba(0, 0, 0, 1)",
-        "fill-opacity": 0.02,
-        "fill-translate-anchor": "viewport"
-      }
-    },
-    {
-      "id": "building-side3",
-      "type": "fill",
-      "source": "stamen-omt",
-      "source-layer": "building",
-      "minzoom": 15,
-      "layout": {"visibility": "none"},
-      "paint": {
-        "fill-translate": [
-          "interpolate",
-          ["exponential", 2],
-          ["zoom"],
-          15,
-          ["literal", [0, 0]],
-          22,
-          ["literal", [0, 60]]
-        ],
-        "fill-color": "rgba(0, 0, 0, 1)",
-        "fill-opacity": 0.02,
-        "fill-translate-anchor": "viewport"
-      }
-    },
-    {
-      "id": "building-side-l",
-      "type": "fill",
-      "source": "stamen-omt",
-      "source-layer": "building",
-      "minzoom": 15,
-      "layout": {"visibility": "none"},
-      "paint": {
-        "fill-translate": [
-          "interpolate",
-          ["exponential", 2],
-          ["zoom"],
-          15,
-          ["literal", [0, 0]],
-          22,
-          ["literal", [-20, 0]]
-        ],
-        "fill-color": "rgba(0, 0, 0, 1)",
-        "fill-opacity": 0.02,
-        "fill-translate-anchor": "viewport"
-      }
-    },
-    {
-      "id": "building-side-l2",
-      "type": "fill",
-      "source": "stamen-omt",
-      "source-layer": "building",
-      "minzoom": 15,
-      "layout": {"visibility": "none"},
-      "paint": {
-        "fill-translate": [
-          "interpolate",
-          ["exponential", 2],
-          ["zoom"],
-          15,
-          ["literal", [0, 0]],
-          22,
-          ["literal", [-40, 0]]
-        ],
-        "fill-color": "rgba(0, 0, 0, 1)",
-        "fill-opacity": 0.02,
-        "fill-translate-anchor": "viewport"
-      }
-    },
-    {
-      "id": "building-side-l3",
-      "type": "fill",
-      "source": "stamen-omt",
-      "source-layer": "building",
-      "minzoom": 15,
-      "layout": {"visibility": "none"},
-      "paint": {
-        "fill-translate": [
-          "interpolate",
-          ["exponential", 2],
-          ["zoom"],
-          15,
-          ["literal", [0, 0]],
-          22,
-          ["literal", [-60, 0]]
-        ],
-        "fill-color": "rgba(0, 0, 0, 1)",
-        "fill-opacity": 0.02,
-        "fill-translate-anchor": "viewport"
-      }
-    },
-    {
-      "id": "building-pattern",
-      "type": "fill",
-      "source": "stamen-omt",
-      "source-layer": "building",
-      "minzoom": 15,
-      "filter": ["!", ["has", "hide_3d"]],
-      "layout": {"visibility": "none"},
-      "paint": {
-        "fill-pattern": "building-stripe",
-        "fill-opacity": 0.2,
-        "fill-antialias": false
       }
     },
     {
@@ -4036,7 +3864,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "rgba(0, 0, 0, 0.75)",
+        "text-color": "rgba(0, 0, 0, 0.9)",
         "text-halo-blur": 1,
         "text-halo-color": "hsl(0, 0%, 100%)",
         "text-halo-width": 2.5,

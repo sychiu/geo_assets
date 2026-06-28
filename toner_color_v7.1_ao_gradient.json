@@ -2352,7 +2352,7 @@
       "type": "line",
       "source": "stamen-omt",
       "source-layer": "building",
-      "minzoom": 15,
+      "minzoom": 17,
       "filter": ["!", ["has", "hide_3d"]],
       "layout": {"visibility": "visible", "line-join": "miter"},
       "paint": {
@@ -2384,7 +2384,7 @@
       "type": "line",
       "source": "stamen-omt",
       "source-layer": "building",
-      "minzoom": 15,
+      "minzoom": 17,
       "filter": ["!", ["has", "hide_3d"]],
       "layout": {"visibility": "visible", "line-join": "miter"},
       "paint": {
@@ -2416,7 +2416,7 @@
       "type": "line",
       "source": "stamen-omt",
       "source-layer": "building",
-      "minzoom": 15,
+      "minzoom": 17,
       "filter": ["!", ["has", "hide_3d"]],
       "layout": {"visibility": "visible", "line-join": "miter"},
       "paint": {
@@ -2439,9 +2439,9 @@
           22,
           -10
         ],
-        "line-opacity": 0.05,
         "line-blur": 0,
-        "line-translate-anchor": "map"
+        "line-translate-anchor": "map",
+        "line-opacity": 0.05
       }
     },
     {
@@ -2449,7 +2449,8 @@
       "type": "fill",
       "source": "stamen-omt",
       "source-layer": "building",
-      "minzoom": 15,
+      "minzoom": 17,
+      "maxzoom": 24,
       "filter": ["!", ["has", "hide_3d"]],
       "layout": {"visibility": "visible"},
       "paint": {

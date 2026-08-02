@@ -3453,7 +3453,9 @@
         ],
         "visibility": "visible",
         "text-keep-upright": true,
-        "icon-pitch-alignment": "auto"
+        "icon-pitch-alignment": "auto",
+        "symbol-avoid-edges": false,
+        "symbol-spacing": 500
       },
       "paint": {
         "text-color": "rgba(0, 0, 0, 0.75)",

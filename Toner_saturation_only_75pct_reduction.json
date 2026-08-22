@@ -1306,7 +1306,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": ["step", ["zoom"], "miter", 14, "round"],
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "line-color": "rgba(238, 238, 238, 1)",

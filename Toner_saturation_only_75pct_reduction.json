@@ -1279,7 +1279,7 @@
       "type": "line",
       "source": "stamen-omt",
       "source-layer": "transportation",
-      "minzoom": 12,
+      "minzoom": 16,
       "filter": [
         "all",
         ["==", ["get", "class"], "path"],
@@ -1309,7 +1309,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgba(238, 238, 238, 1)",
+        "line-color": "rgb(243, 243, 244)",
         "line-dasharray": [10, 0],
         "line-width": [
           "interpolate",
@@ -1324,7 +1324,7 @@
           18,
           8
         ],
-        "line-opacity": 1
+        "line-opacity": 0.5
       }
     },
     {

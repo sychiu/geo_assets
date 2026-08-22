@@ -410,7 +410,8 @@
         ],
         "line-translate": {
           "stops": [[0, [0, 2]], [6, [0, 1]], [14, [0, 1]], [17, [0, 2]]]
-        }
+        },
+        "line-translate-anchor": "viewport"
       }
     },
     {
@@ -455,7 +456,7 @@
       "paint": {
         "fill-color": "rgba(208, 233, 245, 1)",
         "fill-antialias": true,
-        "fill-translate-anchor": "map",
+        "fill-translate-anchor": "viewport",
         "fill-opacity": 1,
         "fill-translate": {
           "stops": [[0, [0, 2]], [6, [0, 1]], [14, [0, 1]], [17, [0, 2]]]

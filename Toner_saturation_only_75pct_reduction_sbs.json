@@ -877,7 +877,7 @@
         ["!=", ["get", "subclass"], "pedestrian"],
         ["==", ["geometry-type"], "LineString"]
       ],
-      "layout": {"line-cap": "round"},
+      "layout": {"line-cap": "round", "visibility": "none"},
       "paint": {
         "line-color": "hsl(0, 0%, 92%)",
         "line-dasharray": [10, 0],
@@ -904,6 +904,7 @@
         ["==", ["get", "subclass"], "steps"],
         ["==", ["geometry-type"], "LineString"]
       ],
+      "layout": {"visibility": "none"},
       "paint": {
         "line-color": "hsl(0, 0%, 92%)",
         "line-dasharray": [
@@ -1340,7 +1341,7 @@
         true,
         ["==", ["geometry-type"], "LineString"]
       ],
-      "layout": {"line-join": "round"},
+      "layout": {"line-join": "round", "visibility": "none"},
       "paint": {
         "line-color": "rgba(228, 228, 228, 1)",
         "line-dasharray": [
@@ -1423,7 +1424,7 @@
       ],
       "layout": {
         "line-join": ["step", ["zoom"], "miter", 14, "round"],
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-color": "rgb(243, 243, 244)",
@@ -2372,7 +2373,7 @@
         ["!=", ["get", "subclass"], "pedestrian"],
         ["==", ["geometry-type"], "LineString"]
       ],
-      "layout": {"line-cap": "round"},
+      "layout": {"line-cap": "round", "visibility": "none"},
       "paint": {
         "line-color": "hsl(0, 0%, 100%)",
         "line-dasharray": [10, 0],

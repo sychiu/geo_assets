@@ -397,7 +397,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgba(227, 236, 240, 1)",
+        "line-color": "rgba(217, 230, 236, 1)",
         "line-opacity": ["interpolate", ["linear"], ["zoom"], 8, 0, 8.5, 1],
         "line-width": [
           "interpolate",
@@ -454,7 +454,7 @@
       "filter": ["all", ["==", "$type", "Polygon"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(227, 236, 240, 1)",
+        "fill-color": "rgba(217, 230, 236, 1)",
         "fill-antialias": true,
         "fill-translate-anchor": "viewport",
         "fill-opacity": 1,

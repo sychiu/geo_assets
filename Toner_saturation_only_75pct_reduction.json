@@ -117,7 +117,7 @@
         [">=", ["to-number", ["get", "sizerank"]], 0],
         ["match", ["get", "class"], ["retail"], true, false]
       ],
-      "layout": {"visibility": "visible"},
+      "layout": {"visibility": "none"},
       "paint": {
         "fill-antialias": true,
         "fill-color": "rgba(255, 248, 229, 1)",
@@ -397,7 +397,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "rgba(212, 233, 242, 1)",
+        "line-color": "rgba(213, 231, 239, 1)",
         "line-opacity": ["interpolate", ["linear"], ["zoom"], 8, 0, 8.5, 1],
         "line-width": [
           "interpolate",
@@ -454,7 +454,7 @@
       "filter": ["all", ["==", "$type", "Polygon"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "fill-color": "rgba(212, 233, 242, 1)",
+        "fill-color": "rgba(213, 231, 239, 1)",
         "fill-antialias": true,
         "fill-translate-anchor": "viewport",
         "fill-opacity": 1,
